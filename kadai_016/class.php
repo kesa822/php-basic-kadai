@@ -36,7 +36,7 @@
    //インスタンス化する
   $potato = new Food('potato', 250);
 
-  print_r($potato). '<br>';
+  print_r($potato);
   echo "<br>";
  
 
@@ -67,7 +67,7 @@
    //インスタンス化する
    $dog = new Animal('dog', 60, 5000);
 
-   print_r($dog). '<br>';
+   print_r($dog);
    echo "<br>";
 
    $potato->show_price();
